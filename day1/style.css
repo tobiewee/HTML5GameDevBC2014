@@ -1,0 +1,44 @@
+body {
+	background-color: white;
+}
+
+.board {
+	width : 100px;
+	height : 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-color : black;
+	background-image: url('backgrnd.jpg');
+	position : relative;
+}
+
+.piece {
+	position : absolute;
+	/*border-radius: 50%;*/
+	border-width: 0px;
+}
+
+.unset{
+	background-image: url('unset.png');
+	background-color: white;
+}
+
+.player1{
+	background-image: url('red_circ1.png');
+	background-color: red;
+}
+
+.player2{
+	background-image: url('blu_circ1.png');
+	background-color: blue;
+}
+
+.message{
+	font-size: 5em;
+	color: darkblue;
+	background-color: #DDD;
+	opacity: 0.8;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
