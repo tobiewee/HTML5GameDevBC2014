@@ -1,0 +1,43 @@
+<!DOCTYPE html >
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			body{
+				background-color: #777;
+			}
+			#container{
+				position: relative;
+				width: 400px;
+				height: 400px;
+			}
+			#layer1, #layer2, #layer3{
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+			#layer1{
+				z-index: 1;
+			}
+			#layer2{
+				z-index: 2;
+			}
+			#layer3{
+				z-index: 3;
+			}
+		</style>
+		<title>RPG Adventure! - Basic</title>
+	</head>
+	<body>
+		<div id="container">
+			<img id="layer1" width="400" height="400" src="./assets/background.png">
+			<canvas id="layer2" width="400" height="400"></canvas>
+			<img id="layer3" width="400" height="400" src="./assets/clouds.png">
+		</div>
+		<script src="Sprite.js"></script>
+		<script src="main.js"></script>
+		<script>
+			document.addEventListener("DOMContentLoaded", main);
+		</script>	
+	</body>
+</html>
