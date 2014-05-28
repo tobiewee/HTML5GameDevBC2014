@@ -1,0 +1,38 @@
+#background{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 300px;
+	z-index: 0;
+	background-image: url('../img/stardust.png');
+}
+
+#clouds{
+	position: fixed;;
+	top: 0;
+	left: 0;
+	width: 500px;
+	height: 300px;
+	z-index: 1;
+}
+
+#score {
+	position: fixed;
+	top: 5px;
+	left: 15px;
+	font-size: 40px;
+	font-family: sans-serif;
+	color: yellow;
+	z-index: 3;
+}
+
+#stage {
+	position: fixed;
+	top: 0;
+	left: 0;
+  background-color: transparent;
+  height: 300px;
+  width: 500px;
+  z-index: 2;
+}
